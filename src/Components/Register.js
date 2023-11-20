@@ -28,7 +28,7 @@ const Register = (props) => {
           <TextField id="outlined-basic" onChange={(e)=> setPass(e.target.value)}  label="Enter your Password" type='password' variant="outlined" />
           <br/>
           <TextField sx={{marginTop:'10px'}} id="outlined-basic" label="Confirm your Password" type='password' variant="outlined" />
-          <Button onClick={handleSubmit} sx={{ margin: '20px' }} variant="contained">Login</Button>
+          <Button onClick={handleSubmit} sx={{ margin: '20px' }} variant="contained">Register</Button>
           <br/>
           {/* <Link onClick={()=> props.onFormSwitch("login")}>Don't have account,sign in</Link> */}
         </Grid>
